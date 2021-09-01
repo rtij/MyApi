@@ -1,0 +1,9 @@
+POST https://127.0.0.1:8000/login/addgroup
+
+{
+    "Groupe":
+    {
+        "emailg":"Jdd@gmail.com",
+        "nameg":"Jdd"
+    }
+}

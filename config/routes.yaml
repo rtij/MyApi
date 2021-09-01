@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+Api_list:
+  path: /api
+  controller: App\Controller\ApiController::list
+  methods:   [GET, POST]
+  host: localhost
+  schemes: [https,http]
+api_login_check:
+  path: /login/login_check
+ 
